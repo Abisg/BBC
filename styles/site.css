@@ -1,5 +1,6 @@
 body{
     background-color:#F2F2F2;
+    
 }
 
 header{
@@ -14,6 +15,13 @@ header{
 
 h1{
     padding-left: 130px;
+    color: #565659;
+    font-family: sans-serif;
+}
+
+h2{
+    color:#BD1110;
+    font-weight: 500;
 }
 
 main,footer{
@@ -29,6 +37,7 @@ article{
 
 .box{
     background-color:#FFFFFF;
+    padding: 10px;
 }
 
 hr{
