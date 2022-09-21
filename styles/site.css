@@ -19,9 +19,25 @@ h1{
     font-family: sans-serif;
 }
 
-h2{
+article{
+    margin-bottom: 4%;
+    margin-top:3%
+}
+
+article a:link,
+article a:visited,
+article a:active{
     color:#BD1110;
     font-weight: 500;
+    
+}
+
+article a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #FFFFFF;
+    background-color: #BD1110;
+    
 }
 
 main,footer{
@@ -30,9 +46,9 @@ main,footer{
 
 }
 
-article{
-    margin-bottom: 4%;
-    margin-top:3%
+footer a:link{
+    font-family: monospace;
+    color: black;
 }
 
 .box{
@@ -40,6 +56,10 @@ article{
     padding: 10px;
 }
 
+p.time{
+    font-style: italic;
+    font-size: .8rem;
+}
 hr{
     width: 80%;
 }
