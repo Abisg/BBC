@@ -21,7 +21,11 @@ h1{
 
 article{
     margin-bottom: 4%;
-    margin-top:3%
+    margin-top:3%;
+}
+
+article p{
+    font-family: 'Times New Roman', Times, serif;
 }
 
 article a:link,
@@ -29,6 +33,7 @@ article a:visited,
 article a:active{
     color:#BD1110;
     font-weight: 500;
+    font-family: 'roboto', sans-serif;
     
 }
 
@@ -46,14 +51,17 @@ main,footer{
 
 }
 
-footer a:link{
+footer a:link,
+footer a:visited,
+footer a:active{
     font-family: monospace;
-    color: black;
+    color: #000000;
 }
 
 .box{
     background-color:#FFFFFF;
     padding: 10px;
+    font-family: arial;
 }
 
 p.time{
